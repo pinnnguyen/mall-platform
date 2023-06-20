@@ -12,10 +12,10 @@
 
         <template v-if="active == 'login'">
           <el-form :model="loginForm" ref="login" label-width="0">
-            <el-form-item prop="account" class="mb40" :verify="{ minLen: 8, maxLen: 16, typeOptions: ['字母|数字'] }">
+            <el-form-item prop="account" class="mb40">
               <el-input v-model="loginForm.account" placeholder="Xin hãy điền tên đăng nhập"></el-input>
             </el-form-item>
-            <el-form-item prop="password" class="mb70" :verify="{ passwordOptions: [6, 18, '字母|数字'] }">
+            <el-form-item prop="password" class="mb70">
               <el-input v-model="loginForm.password" placeholder="Nhập mật khẩu để đăng nhập" show-password></el-input>
             </el-form-item>
           </el-form>
@@ -28,10 +28,10 @@
 
         <template v-if="active == 'register'">
           <el-form :model="registerForm" ref="register" label-width="0">
-            <el-form-item prop="account" class="mb40" :verify="{ minLen: 8, maxLen: 16, typeOptions: ['字母|数字'] }">
+            <el-form-item prop="account" class="mb40">
               <el-input v-model="registerForm.account" placeholder="Vui lòng nhập tài khoản đã đăng ký"></el-input>
             </el-form-item>
-            <el-form-item prop="password" class="mb40" :verify="{ passwordOptions: [6, 18, '字母|数字'] }">
+            <el-form-item prop="password" class="mb40">
               <el-input v-model="registerForm.password" placeholder="Vui lòng nhập mật khẩu đăng ký"
                 show-password></el-input>
             </el-form-item>

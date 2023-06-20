@@ -1,0 +1,188 @@
+{
+  "name": "hàng hóa",
+  "icon": "icon-shangpin",
+  "fields": {
+    "goodsData": {
+      "label": "Danh sách sản phẩm",
+      "type": "array",
+      "child": {
+        "title": {
+          "label": "Tên nhóm",
+          "type": "string",
+          "value": ""
+        },
+        "label": {
+          "label": "Tiêu đề nhóm",
+          "type": "string",
+          "value": ""
+        },
+        "list": {
+          "label": "Danh sách sản phẩm",
+          "type": "goods",
+          "value": []
+        }
+      },
+      "value": []
+    },
+    "attrs": {
+      "label": "Cài đặt sản phẩm",
+      "type": "object",
+      "child": {
+        "model": {
+          "label": "Chế độ menu",
+          "type": "select",
+          "value": "transverse",
+          "data": [
+            {
+              "id": "1635149207D9D1",
+              "label": "Menu hàng đầu",
+              "value": "transverse"
+            },
+            {
+              "id": "1635149208Pklh",
+              "label": "Danh mục bên trái",
+              "value": "vertical"
+            }
+          ]
+        },
+        "tabModel": {
+          "label": "Chế độ tab",
+          "type": "select",
+          "value": "tab1",
+          "data": [
+            {
+              "id": "16351492308UFY",
+              "label": "Phong cách 1",
+              "value": "tab1"
+            },
+            {
+              "id": "16351492310DRo",
+              "label": "Phong cách 2",
+              "value": "tab2"
+            },
+            {
+              "id": "1635149231uCsC",
+              "label": "Phong cách 3",
+              "value": "tab3"
+            }
+          ]
+        },
+        "listModel": {
+          "label": "Chế độ danh sách",
+          "type": "select",
+          "value": "towCols",
+          "data": [
+            {
+              "id": "1635149261aAVr",
+              "label": "Hai dòng",
+              "value": "towCols"
+            },
+            {
+              "id": "1635149261tRlS",
+              "label": "Ba dòng",
+              "value": "threeCols"
+            },
+            {
+              "id": "1635149262Ar3G",
+              "label": "Cuộn ngang",
+              "value": "roll"
+            },
+            {
+              "id": "1635149263PPBX",
+              "label": "Danh sách",
+              "value": "oneCols"
+            }
+          ]
+        },
+        "itemAlign": {
+          "label": "Liên kết",
+          "type": "select",
+          "value": "center",
+          "data": [
+            {
+              "id": "16351492975qPZ",
+              "label": "Liên kết bên trái",
+              "value": "left"
+            },
+            {
+              "id": "1635149299hYH1",
+              "label": "Liên kết",
+              "value": "center"
+            }
+          ]
+        },
+        "showTitle": {
+          "label": "Tiêu đề nhóm",
+          "type": "switch",
+          "value": true
+        },
+        "showInfo": {
+          "label": "Nhận xét",
+          "type": "switch",
+          "value": false
+        },
+        "showOriginalPrice": {
+          "label": "Giá đường dây",
+          "type": "switch",
+          "value": false
+        },
+        "buyText": {
+          "label": "Mua văn bản",
+          "type": "string",
+          "value": "Mua"
+        }
+      }
+    },
+    "styles": {
+      "label": "Phong cách sản phẩm",
+      "type": "object",
+      "child": {
+        "pagePadding": {
+          "label": "Trang",
+          "type": "number",
+          "value": 0
+        },
+        "wrapPadding": {
+          "label": "Thùng đựng hàng",
+          "type": "number",
+          "value": 0
+        },
+        "cmpUpperRadius": {
+          "label": "Góc trên",
+          "type": "number",
+          "value": 0
+        },
+        "cmpLowerRadius": {
+          "label": "Dưới",
+          "type": "number",
+          "value": 0
+        },
+        "titleColor": {
+          "label": "Tiêu đề nhóm",
+          "type": "color",
+          "value": "#000000"
+        },
+        "subTitleColor": {
+          "label": "Tiêu đề phụ",
+          "type": "color",
+          "value": "#7F8080"
+        },
+        "background": {
+          "label": "Lý lịch",
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "tabActiveColor": {
+          "label": "Nhóm được chọn",
+          "type": "color",
+          "value": "#000000"
+        },
+        "buyBackgroundColor": {
+          "label": "Nút mua",
+          "type": "color",
+          "value": "#df201e"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Khối lập phương",
+  "icon": "icon-mofang",
+  "fields": {
+    "cube": {
+      "label": "Dữ liệu khối",
+      "type": "cube",
+      "value": {
+        "model": "custom",
+        "row": 3,
+        "list": []
+      }
+    },
+    "styles": {
+      "label": "Phong cách khối của Rubik",
+      "type": "object",
+      "child": {
+        "pagePadding": {
+          "label": "Đường viền trang",
+          "type": "number",
+          "value": 0
+        },
+        "cmpRadius": {
+          "label": "Thành phần góc tròn",
+          "type": "number",
+          "value": 0
+        },
+        "imgMargin": {
+          "label": "Khoảng cách đơn",
+          "type": "number",
+          "value": 0
+        },
+        "imgRadius": {
+          "label": "Góc tròn đơn",
+          "type": "number",
+          "value": 0
+        },
+        "cmpBackground": {
+          "label": "Nền container",
+          "type": "color",
+          "value": ""
+        }
+      }
+    }
+  }
+}

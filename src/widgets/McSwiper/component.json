@@ -1,0 +1,86 @@
+{
+  "name": "Quảng cáo",
+  "icon": "icon-swiper",
+  "fields": {
+    "list": {
+      "label": "Danh sách xoay vòng",
+      "type": "array",
+      "child": {
+        "image": {
+          "label": "Hình ảnh xoay",
+          "type": "upload",
+          "value": ""
+        },
+        "jump": {
+          "label": "Jump trang",
+          "type": "jump",
+          "value": {}
+        }
+      },
+      "value": [
+        {
+          "id": "0001",
+          "image": "http://110.41.150.71:8090/img/1667354598861.png"
+        },
+        {
+          "id": "0002",
+          "image": "http://110.41.150.71:8090/img/1667354575078.png"
+        }
+      ]
+    },
+    "attrs": {
+      "label": "Cài đặt xoay",
+      "type": "object",
+      "child": {
+        "model": {
+          "label": "Lựa chọn mẫu",
+          "type": "select",
+          "value": "basis",
+          "data": [
+            {
+              "id": "1635210812XSKK",
+              "label": "Căn cứ",
+              "value": "basis"
+            },
+            {
+              "id": "1635210812Eis4",
+              "label": "Thẻ",
+              "value": "card"
+            },
+            {
+              "id": "1635210821yrmE",
+              "label": "Nằm ngang",
+              "value": "line"
+            }
+          ]
+        },
+        "autoplay": {
+          "label": "Tự chạy",
+          "type": "switch",
+          "value": true
+        },
+        "loop": {
+          "label": "Có lưu thông không",
+          "type": "switch",
+          "value": true
+        }
+      }
+    },
+    "styles": {
+      "label": "Phong cách di chuyển",
+      "type": "object",
+      "child": {
+        "pagePadding": {
+          "label": "Đường viền trang",
+          "type": "number",
+          "value": 0
+        },
+        "negativeMarginBottom": {
+          "label": "Dưới",
+          "type": "number",
+          "value": 0
+        }
+      }
+    }
+  }
+}

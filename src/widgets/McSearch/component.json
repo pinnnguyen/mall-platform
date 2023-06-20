@@ -1,0 +1,62 @@
+{
+  "name": "Tìm kiếm",
+  "icon": "icon-sousuo",
+  "fields": {
+    "value": {
+      "label": "Nội dung hộp tìm kiếm",
+      "type": "object",
+      "child": {
+        "text": {
+          "label": "Tìm kiếm văn bản",
+          "type": "string",
+          "value": "Tìm kiếm các sản phẩm bạn muốn"
+        }
+      }
+    },
+    "styles": {
+      "label": "Kiểu hộp tìm kiếm",
+      "type": "object",
+      "child": {
+        "shape": {
+          "label": "Hình dạng",
+          "type": "select",
+          "value": "square",
+          "data": [
+            {
+              "id": "1635162562BC40",
+              "label": "Quảng trường",
+              "value": "square"
+            },
+            {
+              "id": "1635162563tSmu",
+              "label": "Dạng hình tròn",
+              "value": "circular"
+            }
+          ]
+        },
+        "location": {
+          "label": "Vị trí văn bản",
+          "type": "select",
+          "value": "left",
+          "data": [
+            {
+              "id": "1635162591kGpZ",
+              "label": "Bên trái",
+              "value": "left"
+            },
+            {
+              "id": "1635162592X8v6",
+              "label": "Trung tâm",
+              "value": "center"
+            }
+          ]
+        },
+        "cmpBackground": {
+          "label": "Lý lịch",
+          "type": "color",
+          "value": "#FFFFFF"
+        }
+      }
+    }
+  }
+}

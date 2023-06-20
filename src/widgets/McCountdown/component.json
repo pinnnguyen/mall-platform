@@ -1,0 +1,112 @@
+{
+  "name": "Đếm ngược",
+  "icon": "icon-daojishi",
+  "fields": {
+    "value": {
+      "label": "Nội dung đếm ngược",
+      "type": "object",
+      "child": {
+        "text": {
+          "label": "Tên hoạt động",
+          "type": "string",
+          "value": "Hoạt động"
+        },
+        "startTime": {
+          "label": "Thời gian bắt đầu",
+          "type": "time",
+          "value": ""
+        },
+        "endTime": {
+          "label": "Thời gian kết thúc",
+          "type": "time",
+          "value": ""
+        }
+      }
+    },
+    "styles": {
+      "label": "Đếm ngược",
+      "type": "object",
+      "child": {
+        "model": {
+          "label": "Chủ đề",
+          "type": "select",
+          "value": "one",
+          "data": [
+            {
+              "id": "1635165166UDrx",
+              "label": "Chủ đề một",
+              "value": "one"
+            },
+            {
+              "id": "1635165166jFwH",
+              "label": "Chủ đề hai",
+              "value": "two"
+            },
+            {
+              "id": "1635165167uTW3",
+              "label": "Chủ đề ba",
+              "value": "three"
+            }
+          ]
+        },
+        "location": {
+          "label": "Vị trí",
+          "type": "select",
+          "value": "left",
+          "data": [
+            {
+              "id": "16351652208QWr",
+              "label": "Bên trái",
+              "value": "left"
+            },
+            {
+              "id": "1635165221wLkL",
+              "label": "Trung tâm",
+              "value": "center"
+            },
+            {
+              "id": "1635165221be2d",
+              "label": "Phải",
+              "value": "right"
+            }
+          ]
+        },
+        "pagePadding": {
+          "label": "Đường viền trang",
+          "type": "number",
+          "value": 0
+        },
+        "cmpUpperPadding": {
+          "label": "Khoảng cách trên",
+          "type": "number",
+          "value": 10
+        },
+        "cmpLowerPadding": {
+          "label": "Dưới",
+          "type": "number",
+          "value": 10
+        },
+        "cmpUpperRadius": {
+          "label": "Góc trên",
+          "type": "number",
+          "value": 0
+        },
+        "titleColor": {
+          "label": "Màu của đề mục",
+          "type": "color",
+          "value": "#000000"
+        },
+        "timeColor": {
+          "label": "Thời gian và màu sắc",
+          "type": "color",
+          "value": "#000000"
+        },
+        "cmpBackground": {
+          "label": "Lý lịch",
+          "type": "color",
+          "value": "#FFFFFF"
+        }
+      }
+    }
+  }
+}

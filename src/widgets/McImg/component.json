@@ -1,0 +1,48 @@
+{
+  "name": "Hình ảnh",
+  "icon": "icon-image",
+  "fields": {
+    "imageValue": {
+      "label": "Nội dung hình ảnh",
+      "type": "object",
+      "child": {
+        "imagePath": {
+          "label": "tải lên hình ảnh",
+          "type": "upload",
+          "value": ""
+        },
+        "jumpPath": {
+          "label": "Jump trang",
+          "type": "jump",
+          "value": {}
+        }
+      }
+    },
+    "imageStyle": {
+      "label": "Phong cách hình ảnh",
+      "type": "object",
+      "child": {
+        "pagePadding": {
+          "label": "Đường viền trang",
+          "type": "number",
+          "value": 0
+        },
+        "cmpRadius": {
+          "label": "Hình ảnh góc tròn",
+          "type": "number",
+          "value": 0
+        },
+        "cmpUpperPadding": {
+          "label": "Khoảng cách trên",
+          "type": "number",
+          "value": 0
+        },
+        "cmpLowerPadding": {
+          "label": "Dưới",
+          "type": "number",
+          "value": 0
+        }
+      }
+    }
+  }
+}

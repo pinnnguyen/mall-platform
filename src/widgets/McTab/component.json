@@ -1,0 +1,192 @@
+{
+  "name": "Điều hướng đồ họa",
+  "icon": "icon-daohang",
+  "fields": {
+    "tabList": {
+      "label": "Danh sách cột điều hướng",
+      "type": "array",
+      "child": {
+        "label": {
+          "label": "Tên điều hướng",
+          "type": "string",
+          "value": "默认导航"
+        },
+        "image": {
+          "label": "Tải lên hình ảnh",
+          "type": "upload",
+          "value": "http://110.41.150.71:8090/img/1667354717861.png"
+        },
+        "jump": {
+          "label": "Jump trang",
+          "type": "jump",
+          "value": {}
+        }
+      },
+      "value": [
+        {
+          "id": "0001",
+          "label": "Được đề xuất",
+          "image": "http://110.41.150.71:8090/img/1667354666114.png"
+        },
+        {
+          "id": "0002",
+          "label": "Hàng hot",
+          "image": "http://110.41.150.71:8090/img/1667354683202.png"
+        },
+        {
+          "id": "0003",
+          "label": "Vé khuyến mãi",
+          "image": "http://110.41.150.71:8090/img/1667354700687.png"
+        },
+        {
+          "id": "0004",
+          "label": "Theo nhóm",
+          "image": "http://110.41.150.71:8090/img/1667354717861.png"
+        }
+      ]
+    },
+    "attrs": {
+      "label": "Cài đặt thanh điều hướng",
+      "type": "object",
+      "child": {
+        "model": {
+          "label": "Lựa chọn mẫu",
+          "type": "select",
+          "value": "fixed",
+          "data": [
+            {
+              "id": "1634892925fV0D",
+              "label": "Đã sửa",
+              "value": "fixed"
+            },
+            {
+              "id": "16348929304MaO",
+              "label": "Cuộn",
+              "value": "scroll"
+            }
+          ]
+        },
+        "type": {
+          "label": "Loại hiển thị",
+          "type": "select",
+          "value": "image-text",
+          "data": [
+            {
+              "id": "1634892957h4U9",
+              "label": "Hình ảnh",
+              "value": "image"
+            },
+            {
+              "id": "1634892958XCIV",
+              "label": "Chữ",
+              "value": "text"
+            },
+            {
+              "id": "1634892959O8OC",
+              "label": "Đồ họa",
+              "value": "image-text"
+            }
+          ]
+        },
+        "max": {
+          "label": "Hiện",
+          "type": "select",
+          "value": "4",
+          "data": [
+            {
+              "id": "1634893007npTR",
+              "label": "2.5个",
+              "value": "2.5"
+            },
+            {
+              "id": "16348930081xgk",
+              "label": "3个",
+              "value": "3"
+            },
+            {
+              "id": "16348930260wyB",
+              "label": "3.5个",
+              "value": "3.5"
+            },
+            {
+              "id": "1634893027qWrg",
+              "label": "4个",
+              "value": "4"
+            },
+            {
+              "id": "16348930456yGG",
+              "label": "4.5个",
+              "value": "4.5"
+            },
+            {
+              "id": "1634893046CdPQ",
+              "label": "5个",
+              "value": "5"
+            }
+          ]
+        }
+      }
+    },
+    "styles": {
+      "label": "Phong cách thanh điều hướng",
+      "type": "object",
+      "child": {
+        "pagePadding": {
+          "label": "Đường viền trang",
+          "type": "number",
+          "value": 0
+        },
+        "cmpUpperPadding": {
+          "label": "Khoảng cách trên",
+          "type": "number",
+          "value": 0
+        },
+        "cmpLowerPadding": {
+          "label": "Dưới",
+          "type": "number",
+          "value": 0
+        },
+        "imgPadding": {
+          "label": "Khoảng cách đơn",
+          "type": "number",
+          "value": 10
+        },
+        "cmpUpperRadius": {
+          "label": "Góc trên",
+          "type": "number",
+          "value": 0
+        },
+        "cmpLowerRadius": {
+          "label": "Góc dưới",
+          "type": "number",
+          "value": 0
+        },
+        "imgWidth": {
+          "label": "Chiều rộng hình ảnh",
+          "type": "number",
+          "value": 50
+        },
+        "imgRadius": {
+          "label": "Hình ảnh góc tròn",
+          "type": "number",
+          "value": 0
+        },
+        "fontSize": {
+          "label": "Phông chữ văn bản",
+          "type": "number",
+          "value": 12
+        },
+        "titleColor": {
+          "label": "Văn bản màu",
+          "type": "color",
+          "value": ""
+        },
+        "cmpBackground": {
+          "label": "Thành phần nền",
+          "type": "color",
+          "value": ""
+        }
+      }
+    }
+  }
+}

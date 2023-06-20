@@ -1,0 +1,61 @@
+{
+  "name": "Phân đoạn phụ trợ",
+  "icon": "icon-line",
+  "fields": {
+    "styles": {
+      "label": "Phong cách phân chia",
+      "type": "object",
+      "child": {
+        "model": {
+          "label": "Chế độ phân chia",
+          "type": "select",
+          "value": "basis",
+          "data": [
+            {
+              "id": "1635164466RLDL",
+              "label": "trống",
+              "value": "basis"
+            },
+            {
+              "id": "1635164467ydsC",
+              "label": "Dòng phụ trợ",
+              "value": "line"
+            }
+          ]
+        },
+        "type": {
+          "label": "Chia dòng",
+          "type": "select",
+          "value": "basis",
+          "data": [
+            {
+              "id": "1635164520lVxD",
+              "label": "Đường vẽ liền",
+              "value": "basis"
+            },
+            {
+              "id": "1635164521Wt1b",
+              "label": "Đường chấm chấm",
+              "value": "dashed"
+            }
+          ]
+        },
+        "pagePadding": {
+          "label": "Đường viền trang",
+          "type": "number",
+          "value": 0
+        },
+        "height": {
+          "label": "Chiều cao",
+          "type": "number",
+          "value": 20
+        },
+        "lineColor": {
+          "label": "Màu sắc đường phân chia",
+          "type": "color",
+          "value": "#E5E5E5"
+        }
+      }
+    }
+  }
+}

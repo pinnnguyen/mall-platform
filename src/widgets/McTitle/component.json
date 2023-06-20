@@ -1,0 +1,101 @@
+{
+  "name": "Tiêu đề",
+  "icon": "icon-biaotizujian",
+  "fields": {
+    "value": {
+      "label": "Nội dung tiêu đề",
+      "type": "object",
+      "child": {
+        "title": {
+          "label": "Tiêu đề",
+          "type": "string",
+          "value": "LEADING SERIES"
+        },
+        "info": {
+          "label": "Phụ đề",
+          "type": "string",
+          "value": "品牌系列推荐"
+        }
+      }
+    },
+    "attrs": {
+      "label": "Bố cục tiêu đề",
+      "type": "object",
+      "child": {
+        "model": {
+          "label": "Lựa chọn bố cục",
+          "type": "select",
+          "value": "left",
+          "data": [
+            {
+              "id": "1635161793h3mJ",
+              "label": "Bên trái",
+              "value": "left"
+            },
+            {
+              "id": "1635161794uYJI",
+              "label": "Trung tâm",
+              "value": "center"
+            }
+          ]
+        }
+      }
+    },
+    "styles": {
+      "label": "Phong cách tiêu đề",
+      "type": "object",
+      "child": {
+        "pagePadding": {
+          "label": "Đường viền trang",
+          "type": "number",
+          "value": 0
+        },
+        "cmpUpperPadding": {
+          "label": "Khoảng cách trên",
+          "type": "number",
+          "value": 10
+        },
+        "cmpLowerPadding": {
+          "label": "Dưới",
+          "type": "number",
+          "value": 10
+        },
+        "cmpUpperRadius": {
+          "label": "Góc trên",
+          "type": "number",
+          "value": 0
+        },
+        "cmpLowerRadius": {
+          "label": "Dưới",
+          "type": "number",
+          "value": 0
+        },
+        "titleSize": {
+          "label": "Phông chữ tiêu đề",
+          "type": "number",
+          "value": 20
+        },
+        "infoSize": {
+          "label": "Phông chữ phụ đề",
+          "type": "number",
+          "value": 12
+        },
+        "titleColor": {
+          "label": "Màu của đề mục",
+          "type": "color",
+          "value": "#333333"
+        },
+        "infoColor": {
+          "label": "Phụ đề màu sắc",
+          "type": "color",
+          "value": "#999999"
+        },
+        "cmpBackground": {
+          "label": "Lý lịch",
+          "type": "color",
+          "value": ""
+        }
+      }
+    }
+  }
+}
